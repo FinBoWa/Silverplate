@@ -33,10 +33,10 @@ kickstart a nice website.
 Installation Instructions
 -------------------------
 * Make sure, SilverStripe, Compass and Foundation 3 (the gem version) are installed and working.
-* Copy Silverplate into the /themes directory of your SilverStripe installation.
+* Download Silverplate and place it into the /themes directory of your SilverStripe installation.
 
-Now *cd /path/to/your-silverstripe-installation/themes/silverplate* and run
-*compass install -r zurb-foundation foundation/upgrade --force*
+* To install the foundation files, `$ cd /path/to/your-silverstripe-installation/themes/silverplate` and run
+`$ compass install -r zurb-foundation foundation/upgrade --force`
 
 Now you should be ready to go :-)
 
