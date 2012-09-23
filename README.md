@@ -29,6 +29,8 @@ Just another take on a boilerplate theme for SilverStripe,
 using Foundation 3 from Zurb as a front-end framework to 
 kickstart a nice website.
 
+It really is only a boilerplate, so don't expect a fully flegded theme here.
+
 
 Installation Instructions
 -------------------------
@@ -36,7 +38,8 @@ Installation Instructions
 * Download Silverplate and place it into the /themes directory of your SilverStripe installation.
 
 * To install the foundation files, `$ cd /path/to/your-silverstripe-installation/themes/silverplate` and run
-`$ compass install -r zurb-foundation foundation/upgrade --force`
+`$ compass install foundation` for a complete installation.
+* To update your foundation files, run `$ compass install -r zurb-foundation foundation/upgrade --force`.
 
 Now you should be ready to go :-)
 
