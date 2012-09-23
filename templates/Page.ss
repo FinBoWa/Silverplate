@@ -24,6 +24,11 @@
     
     <%-- don't forget you can customize modernizr: http://www.modernizr.com/download/ --%>
     <script src="$ThemeDir/javascript/foundation/modernizr.foundation.js"></script>
+
+    <%-- IE Fix for HTML5 Tags --%>
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     
 </head>
 

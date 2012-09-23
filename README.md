@@ -7,7 +7,7 @@ A SilverStripe Boilerplate Theme built on Foundation 3
 
 Version
 -------
-1.0.0 
+1.0.1 
 
 
 Maintainer Contacts
