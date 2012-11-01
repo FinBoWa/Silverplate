@@ -15,8 +15,6 @@
 	<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
     $MetaTags(false)
 
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-
     <link rel="shortcut icon" href="/favicon.ico" />
     
     <%-- we use foundations app.css instead of SilverStripes Layout/Typography CSS files--%>
@@ -64,19 +62,25 @@
 <%-- javascripts for the theme; remove unused and don't forget the cool feature to combine files in your mysite/Page.php (@see Requirements::combine_files()) --%>
 <script src="//code.jquery.com/jquery-1.8.2.min.js"></script>
 
-<script src="$ThemeDir/javascript/foundation/jquery.foundation.reveal.js"></script>
-<script src="$ThemeDir/javascript/foundation/jquery.foundation.orbit.js"></script>
-<script src="$ThemeDir/javascript/foundation/jquery.foundation.forms.js"></script>
-<script src="$ThemeDir/javascript/foundation/jquery.placeholder.js"></script>
-<script src="$ThemeDir/javascript/foundation/jquery.foundation.tooltips.js"></script>
-<script src="$ThemeDir/javascript/foundation/jquery.foundation.alerts.js"></script>
-<script src="$ThemeDir/javascript/foundation/jquery.foundation.buttons.js"></script>
-<script src="$ThemeDir/javascript/foundation/jquery.foundation.accordion.js"></script>
-<script src="$ThemeDir/javascript/foundation/jquery.foundation.navigation.js"></script>
-<script src="$ThemeDir/javascript/foundation/jquery.foundation.mediaQueryToggle.js"></script>
-<script src="$ThemeDir/javascript/foundation/jquery.foundation.tabs.js"></script>
+<script src="javascripts/foundation/jquery.foundation.buttons.js"></script>
+<script src="javascripts/foundation/jquery.foundation.forms.js"></script>
+<script src="javascripts/foundation/jquery.cookie.js"></script>
+<script src="javascripts/foundation/jquery.event.swipe.js"></script>
+<script src="javascripts/foundation/jquery.foundation.tooltips.js"></script>
+<script src="javascripts/foundation/jquery.foundation.navigation.js"></script>
+<script src="javascripts/foundation/jquery.foundation.accordion.js"></script>
+<script src="javascripts/foundation/jquery.foundation.reveal.js"></script>
+<script src="javascripts/foundation/jquery.event.move.js"></script>
+<script src="javascripts/foundation/jquery.foundation.clearing.js"></script>
+<script src="javascripts/foundation/jquery.foundation.joyride.js"></script>
+<script src="javascripts/foundation/jquery.placeholder.js"></script>
+<script src="javascripts/foundation/jquery.foundation.alerts.js"></script>
+<script src="javascripts/foundation/jquery.foundation.orbit.js"></script>
+<script src="javascripts/foundation/jquery.foundation.tabs.js"></script>
+<script src="javascripts/foundation/jquery.foundation.topbar.js"></script>
+<script src="javascripts/foundation/jquery.foundation.magellan.js"></script>
 
-<%-- the javascript for our app --%>
+<%-- the javascript for our theme --%>
 <script src="$ThemeDir/javascript/foundation/app.js"></script>
 
 <%-- uncomment below if you want to use the Analytics template --%>
