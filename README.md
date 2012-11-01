@@ -7,7 +7,7 @@ A SilverStripe Boilerplate Theme built on Foundation 3
 
 Version
 -------
-1.0.1 
+1.2.0 
 
 
 Maintainer Contacts
@@ -29,7 +29,7 @@ Just another take on a boilerplate theme for SilverStripe,
 using Foundation 3 from Zurb as a front-end framework to 
 kickstart a nice website.
 
-It really is only a boilerplate, so don't expect a fully flegded theme here.
+It really is only a boilerplate, so don't expect a fully fledged theme here.
 
 
 Installation Instructions
