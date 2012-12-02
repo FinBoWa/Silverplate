@@ -41,7 +41,13 @@ Installation Instructions
 `$ compass install foundation` for a complete installation.
 * To update your foundation files, run `$ compass install -r zurb-foundation foundation/upgrade --force`.
 
+###Optional installation with [Composer](http://getcomposer.org)
+* Install SilverStripe using Composer: [read about it here](http://doc.silverstripe.org/framework/en/installation/composer)
+* `$ cd /path/to/your-silverstripe-installation/` and run `$ composer require p7media/silverplate dev-master` to install this theme
+* run `$ compass install -r zurb-foundation foundation/upgrade --force` to install the missing foundation files
+
 Now you should be ready to go :-)
+
 
 
 Known Issues
