@@ -1,0 +1,17 @@
+{
+    "name": "p7media/Silverplate",
+    "description": "Boilerplate to kickstart a theme using the Foundation 3 frontend framework",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Bachhelm",
+            "homepage": "http://p7media.de"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=3.0"
+    }
+}
