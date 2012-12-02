@@ -1,6 +1,6 @@
 {
     "name": "p7media/silverplate",
-    "description": "Boilerplate to kickstart a theme using the Foundation 3 frontend framework",
+    "description": "Boilerplate to kickstart a SilverStripe theme using the Foundation 3 frontend framework",
     "type": "silverstripe-theme",
     "keywords": ["silverstripe", "theme"],
     "license": "MIT",
