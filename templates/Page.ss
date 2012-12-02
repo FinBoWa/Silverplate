@@ -81,7 +81,7 @@
 <script src="$ThemeDir/javascript/foundation/jquery.foundation.magellan.js"></script>
 
 <%-- the javascript for our theme --%>
-<script src="$ThemeDir/javascript/foundation/app.js"></script>
+<script src="$ThemeDir/javascript/app.js"></script>
 
 <%-- uncomment below if you want to use the Analytics template --%>
 <%-- include GoogleAnalytics --%>
