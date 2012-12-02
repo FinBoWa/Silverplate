@@ -9,9 +9,5 @@
             "name": "Christian Bachhelm",
             "homepage": "http://p7media.de"
         }
-    ],
-    "require": {
-        "composer/installers": "*",
-        "silverstripe/framework": ">=3.0"
-    }
+    ]
 }
