@@ -1,5 +1,5 @@
 {
-    "name": "p7media/Silverplate",
+    "name": "p7media/silverplate",
     "description": "Boilerplate to kickstart a theme using the Foundation 3 frontend framework",
     "type": "silverstripe-theme",
     "keywords": ["silverstripe", "theme"],
